@@ -26,6 +26,14 @@ Jumper wires and breadboard (for circuit connections)
 
 Python 3.x environment and required libraries (pyserial, mediapipe/opencv, etc.)
 
+This project presents a basic Pan-Tilt hand control system and is open to further development.
+If you’ve integrated it into your own projects or built upon it, I’d be glad to see your work 
+
+I openly welcome any suggestions, improvements, or corrections. My goal is to enhance this project and take it to a more advanced and refined level. :)
+
+
+
+
 
 
 
@@ -58,3 +66,9 @@ Bağlantı kabloları ve breadboard (devre bağlantıları için)
 Python 3.x ortamı ve ilgili kütüphaneler (pyserial, mediapipe/opencv vb.)
 
 -Malzemeleri robotistan’dan aldım. İsterseniz projeye mesafe sensörü, buzzer ve LED gibi bileşenler ekleyerek sistemi daha da geliştirebilirsiniz :) 
+
+
+Bu proje temel bir Pan-Tilt el kontrol sistemi sunmaktadır ve geliştirmeye açıktır.
+Eğer projeyi kendi çalışmalarınıza entegre ettiyseniz ya da üzerine yeni özellikler eklediyseniz, lütfen benimle paylaşın 
+
+Her türlü öneri, katkı veya düzeltme taleplerine açığım. Amacım bu projeyi daha üst seviyelere taşımak ve olabildiğince nitelikli hale getirmek. :))
