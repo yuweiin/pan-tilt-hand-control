@@ -50,6 +50,18 @@ python eltakip.py
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 Donanım Bağlantıları (Koda Göre)
 Pan Servo Motor: Arduino dijital pin 9’a bağlanır.
 
