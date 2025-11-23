@@ -1,74 +1,76 @@
-English:
+Pan-Tilt Object Tracking System (Computer Vision & Arduino)
 
-This project implements a hand gesture-based control system for a pan-tilt servo mechanism using Arduino and Python. The Arduino reads servo angle commands via serial communication and drives two servo motors for pan and tilt movement. Python performs real-time hand tracking (e.g., with MediaPipe or OpenCV) and sends angle commands to the Arduino over the serial port.
+🇬🇧 English Description
 
-Key Features:
+This project implements a real-time computer vision-based control system for a 2-axis Pan-Tilt servo mechanism using Python (OpenCV/MediaPipe) and Arduino.
 
-Real-time serial communication between Python and Arduino
+The system captures video input, processes it to track hand gestures or face coordinates, and sends angle calculations to the Arduino microcontroller via serial communication. This creates a closed-loop control system where hardware responds to software-defined targets instantly.
 
-Servo control for pan and tilt axes
+🚀 Key Features
 
-Feedback display via I2C 16x2 LCD screen
+Real-Time Tracking: High-performance object/hand tracking using MediaPipe & OpenCV.
 
-Modular and extensible design
+Serial Communication: Seamless data transfer between Python scripts and Arduino firmware.
 
-Materials Used:
+2-Axis Control: Precise control of Pan (X-axis) and Tilt (Y-axis) servo motors.
 
-Arduino Uno (or compatible microcontroller)
+User Feedback: Integrated 16x2 I2C LCD for real-time system status and coordinate display.
 
-2x Servo Motors (for pan and tilt movement)
+Modular Architecture: Easily expandable for different sensors (e.g., Lidar, Ultrasonic).
 
-I2C interface 16x2 LCD display
+🛠 Hardware Requirements
 
-USB cable (for Arduino-Python communication)
+Microcontroller: Arduino Uno (or compatible AVR/ESP boards).
 
-Jumper wires and breadboard (for circuit connections)
+Actuators: 2x SG90 or MG996R Servo Motors.
 
-Python 3.x environment and required libraries (pyserial, mediapipe/opencv, etc.)
+Display: 16x2 LCD with I2C Interface.
 
-This project presents a basic Pan-Tilt hand control system and is open to further development.
-If you’ve integrated it into your own projects or built upon it, I’d be glad to see your work 
+Power: External 5V Power Supply (Recommended for servos).
 
-I openly welcome any suggestions, improvements, or corrections. My goal is to enhance this project and take it to a more advanced and refined level. :)
+Connection: USB Cable (Serial Com).
 
+💻 Software Dependencies
 
+To run the Python script, install the required libraries:
 
-
-
-
-
-Türkçe:
-
-Bu proje, Arduino ve Python kullanarak el hareketleriyle pan-tilt servo mekanizmasını kontrol eden bir sistemdir. Arduino, seri haberleşme ile gelen servo açı komutlarını okuyarak pan ve tilt için iki servo motoru sürer. Python ise gerçek zamanlı el takibi (MediaPipe veya OpenCV gibi) yapar ve açılar şeklinde komutları Arduino’ya seri port üzerinden gönderir.
-
-Temel özellikler:
-
-Python ve Arduino arasında gerçek zamanlı seri iletişim
-
-Pan ve tilt eksenleri için servo kontrolü
-
-I2C üzerinden LCD geri bildirim ekranı
-
-Modüler ve genişletilebilir yapı
-
-Kullanılan Malzemeler:
-
-Arduino Uno (veya uyumlu bir mikrodenetleyici)
-
-2 adet Servo Motor (Pan ve Tilt hareketleri için)
-
-I2C arayüzlü 16x2 LCD ekran
-
-USB kablosu (Arduino-Python iletişimi için)
-
-Bağlantı kabloları ve breadboard (devre bağlantıları için)
-
-Python 3.x ortamı ve ilgili kütüphaneler (pyserial, mediapipe/opencv vb.)
-
--Malzemeleri robotistan’dan aldım. İsterseniz projeye mesafe sensörü, buzzer ve LED gibi bileşenler ekleyerek sistemi daha da geliştirebilirsiniz :) 
+pip install opencv-python
+pip install mediapipe
+pip install pyserial
 
 
-Bu proje temel bir Pan-Tilt el kontrol sistemi sunmaktadır ve geliştirmeye açıktır.
-Eğer projeyi kendi çalışmalarınıza entegre ettiyseniz ya da üzerine yeni özellikler eklediyseniz, lütfen benimle paylaşın 
+🇹🇷 Türkçe Açıklama
 
-Her türlü öneri, katkı veya düzeltme taleplerine açığım. Amacım bu projeyi daha üst seviyelere taşımak ve olabildiğince nitelikli hale getirmek. :))
+Bu proje, Python (OpenCV/MediaPipe) ve Arduino kullanılarak geliştirilmiş, görüntü işleme tabanlı bir 2 eksenli Pan-Tilt kontrol sistemidir.
+
+Sistem, kamera görüntüsünü işleyerek el hareketlerini veya yüz koordinatlarını tespit eder. Hesaplanan açı verileri, seri haberleşme (Serial Communication) üzerinden Arduino'ya iletilir. Bu sayede donanım, yazılım tarafından belirlenen hedefe gerçek zamanlı olarak odaklanır.
+
+🚀 Temel Özellikler
+
+Gerçek Zamanlı Takip: MediaPipe ve OpenCV kullanarak düşük gecikmeli nesne/el takibi.
+
+Seri Haberleşme: Python ve Arduino arasında optimize edilmiş veri akışı.
+
+2 Eksenli Kontrol: Pan (Yatay) ve Tilt (Dikey) servo motorlarının hassas kontrolü.
+
+Geri Bildirim Sistemi: I2C LCD ekran üzerinden anlık koordinat ve durum bilgisi.
+
+Modüler Yapı: Mesafe sensörü veya lazer modülü gibi eklemeler için uygun altyapı.
+
+🛠 Donanım Gereksinimleri
+
+Mikrodenetleyici: Arduino Uno (veya uyumlu kartlar).
+
+Eyleyiciler: 2 adet Servo Motor (Pan ve Tilt eksenleri için).
+
+Ekran: I2C arayüzlü 16x2 LCD Ekran.
+
+Güç: Servolar için harici 5V güç kaynağı (Önerilir).
+
+🤝 Contribution / Katkı
+
+This project is open to development. If you want to improve the code or add new features (like PID control), feel free to submit a Pull Request.
+
+Bu proje geliştirmeye açıktır. PID kontrolü eklemek veya performansı artırmak isterseniz Pull Request gönderebilirsiniz.
+
+Developed by Esma Demirhan
