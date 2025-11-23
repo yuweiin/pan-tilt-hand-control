@@ -1,6 +1,6 @@
 Pan-Tilt Object Tracking System (Computer Vision & Arduino)
 
-🇬🇧 English Description
+English Description
 
 This project implements a real-time computer vision-based control system for a 2-axis Pan-Tilt servo mechanism using Python (OpenCV/MediaPipe) and Arduino.
 
@@ -39,7 +39,7 @@ pip install mediapipe
 pip install pyserial
 
 
-🇹🇷 Türkçe Açıklama
+Türkçe Açıklama
 
 Bu proje, Python (OpenCV/MediaPipe) ve Arduino kullanılarak geliştirilmiş, görüntü işleme tabanlı bir 2 eksenli Pan-Tilt kontrol sistemidir.
 
