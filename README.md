@@ -6,7 +6,7 @@ This project implements a real-time computer vision-based control system for a 2
 
 The system captures video input, processes it to track hand gestures or face coordinates, and sends angle calculations to the Arduino microcontroller via serial communication. This creates a closed-loop control system where hardware responds to software-defined targets instantly.
 
-🚀 Key Features
+Key Features
 
 Real-Time Tracking: High-performance object/hand tracking using MediaPipe & OpenCV.
 
@@ -18,7 +18,7 @@ User Feedback: Integrated 16x2 I2C LCD for real-time system status and coordinat
 
 Modular Architecture: Easily expandable for different sensors (e.g., Lidar, Ultrasonic).
 
-🛠 Hardware Requirements
+Hardware Requirements
 
 Microcontroller: Arduino Uno (or compatible AVR/ESP boards).
 
@@ -30,7 +30,7 @@ Power: External 5V Power Supply (Recommended for servos).
 
 Connection: USB Cable (Serial Com).
 
-💻 Software Dependencies
+Software Dependencies
 
 To run the Python script, install the required libraries:
 
@@ -45,7 +45,7 @@ Bu proje, Python (OpenCV/MediaPipe) ve Arduino kullanılarak geliştirilmiş, g�
 
 Sistem, kamera görüntüsünü işleyerek el hareketlerini veya yüz koordinatlarını tespit eder. Hesaplanan açı verileri, seri haberleşme (Serial Communication) üzerinden Arduino'ya iletilir. Bu sayede donanım, yazılım tarafından belirlenen hedefe gerçek zamanlı olarak odaklanır.
 
-🚀 Temel Özellikler
+Temel Özellikler
 
 Gerçek Zamanlı Takip: MediaPipe ve OpenCV kullanarak düşük gecikmeli nesne/el takibi.
 
@@ -57,7 +57,7 @@ Geri Bildirim Sistemi: I2C LCD ekran üzerinden anlık koordinat ve durum bilgis
 
 Modüler Yapı: Mesafe sensörü veya lazer modülü gibi eklemeler için uygun altyapı.
 
-🛠 Donanım Gereksinimleri
+Donanım Gereksinimleri
 
 Mikrodenetleyici: Arduino Uno (veya uyumlu kartlar).
 
@@ -67,7 +67,7 @@ Ekran: I2C arayüzlü 16x2 LCD Ekran.
 
 Güç: Servolar için harici 5V güç kaynağı (Önerilir).
 
-🤝 Contribution / Katkı
+Contribution / Katkı
 
 This project is open to development. If you want to improve the code or add new features (like PID control), feel free to submit a Pull Request.
 
